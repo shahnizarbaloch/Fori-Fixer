@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "916691960911",
+    "firebase_url": "https://forifixer2.firebaseio.com",
+    "project_id": "forifixer2",
+    "storage_bucket": "forifixer2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916691960911:android:63c67362f4a5b92f",
+        "android_client_info": {
+          "package_name": "com.shahnizarbaloch.forifixer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916691960911-c6kn7empdo85td4mtc3jdhse2l6gvsud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shahnizarbaloch.forifixer",
+            "certificate_hash": "84842e545bcac7ad26fd9e299ccefb53a9947687"
+          }
+        },
+        {
+          "client_id": "916691960911-nkcs6dss1vghcg0nlcesfeengfso4e2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv39I8SVJLzGlITho2KqcBrcY5NG2LbW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916691960911-nkcs6dss1vghcg0nlcesfeengfso4e2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

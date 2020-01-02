@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        tools:ignore="HardcodedText" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account"
+            android:title="Profile"
+            />
+        <item
+            android:id="@+id/nav_forifixer_service"
+            android:icon="@drawable/ic_services"
+            android:title="Fori Fixer Service" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_payment"
+            android:title="Payment Methods" />
+        <item
+            android:id="@+id/nav_contact_forifixer"
+            android:icon="@drawable/ic_contact_forifixer"
+            android:title="Contact Fori Fixer" />
+
+        <item
+            android:id="@+id/nav_submitted_order"
+            android:icon="@drawable/ic_cart"
+            android:title="Submitted Orders" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Application"
+        tools:ignore="HardcodedText" >
+        <menu>
+
+            <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_rate_app"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_share_app"
+                android:title="Share App" />
+
+        </menu>
+    </item>
+</menu>

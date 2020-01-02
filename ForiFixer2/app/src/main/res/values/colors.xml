@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0082E7</color>
+    <color name="colorPrimaryDark">#4BAFF5</color>
+    <color name="colorAccent">#0D1A46</color>
+
+    <color name="colorCarpenter">#FFB8B8</color>
+    <color name="colorElectrician">#99C7EC</color>
+    <color name="colorMechanical">#B5B4EC</color>
+    <color name="colorPainter">#E49DC1</color>
+    <color name="colorPlumber">#FFD9A3</color>
+</resources>

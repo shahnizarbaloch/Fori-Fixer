@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_add_to_cart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:ignore="HardcodedText"
+    tools:targetApi="jelly_bean" >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/atc_heading"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
+        tools:text="Fan Installation" />
+
+    <!-- atc = add to cart -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/atc_detail"
+        android:layout_marginTop="5dp"
+        android:layout_width="230dp"
+        android:paddingRight="3dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atc_heading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/darker_gray"
+        tools:text="There will be some description of heading"
+        android:paddingEnd="5dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/atc_rs_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atc_detail"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:text="Rs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="RtlHardcoded" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/atc_rs_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atc_detail"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_toEndOf="@+id/atc_rs_label"
+        android:layout_toRightOf="@+id/atc_rs_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        tools:text="100" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/addPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/atc_heading"
+        android:layout_toRightOf="@+id/atc_heading"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:text="Add"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:fontFamily="sans-serif-smallcaps" />
+
+
+</RelativeLayout>

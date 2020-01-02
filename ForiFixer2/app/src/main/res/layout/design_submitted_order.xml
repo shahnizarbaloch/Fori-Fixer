@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Order ID:"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            tools:ignore="HardcodedText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Order Total:"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="PKR 1500"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            tools:ignore="HardcodedText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Click to See Order Details..."
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:padding="2dp"
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
